@@ -1,6 +1,6 @@
-# 🎬 ShareCode - Netflix-Inspired Code Sharing Platform
+# 🎬 ShareCode - Code Sharing Platform
 
-ShareCode is a modern, Netflix-inspired web application for sharing code snippets with beautiful syntax highlighting and a sleek dark interface.
+ShareCode is a modern, web application for sharing code snippets with beautiful syntax highlighting and a sleek dark interface.
 
 ![ShareCode Preview](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
@@ -175,11 +175,7 @@ If you find a bug, please open an issue on GitHub with:
 
 If you like this project, please give it a ⭐ on GitHub!
 
-## 📞 Contact
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Issues: [GitHub Issues](https://github.com/yourusername/sharecode/issues)
 
 ---
 
-Made with ❤️ and inspired by Netflix's beautiful UI design.
+Made with ❤️ 
