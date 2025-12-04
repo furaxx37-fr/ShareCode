@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html/sharecode
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+      - DB_NAME=sharecode
+      - DB_USER=sharecode_user
+      - DB_PASS=ShareCode2024
+    networks:
+      - sharecode-network
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: sharecode
+      MYSQL_USER: sharecode_user
+      MYSQL_PASSWORD: ShareCode2024
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./database.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - sharecode-network
+    ports:
+      - "3306:3306"
+
+volumes:
+  mysql_data:
+
+networks:
+  sharecode-network:
+    driver: bridge
