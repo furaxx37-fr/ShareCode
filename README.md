@@ -28,7 +28,7 @@ ShareCode is a modern, web application for sharing code snippets with beautiful 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sharecode.git
+git clone https://github.com/furaxx37-fr/sharecode.git
 cd sharecode
 
 # Run the installation script
@@ -40,7 +40,7 @@ sudo ./scripts/install.sh
 
 #### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/sharecode.git
+git clone https://github.com/furaxx37-fr/sharecode.git
 cd sharecode
 ```
 
